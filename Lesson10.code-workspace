@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../helveticaneue"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson11"
+	}
+}
