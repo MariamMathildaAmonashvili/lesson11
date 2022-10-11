@@ -247,3 +247,107 @@ footer {
 form div {
     padding-top: 5%;
 }
+
+
+@media (max-width: 1024px){
+
+
+.logo main {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0 0 18px 18px;
+    height:185px ;
+
+}
+
+.navigationheader {
+    display: none;
+}
+
+.heading3 {
+    font-size: 18px;
+}
+
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 334px;
+    height: 210px;
+}
+
+
+.littlephotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.little-image {
+    width: 165px;
+    height: 90px;
+}
+
+.box5  {
+    display: none;
+}
+
+.fotter-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.p-2 , .p-3, .p-4 {
+    display: none;
+}
+
+.p-1 {
+    width: 334px;
+    font-size: 14px;
+}
+
+.paragraph-button {
+    margin-bottom: 3%;
+    margin-top: 0 ;
+
+}
+
+
+.fotter-contact h2 {
+    font-size: 16px;
+    height: 180px;
+}
+
+.right-part {
+    font-size: 13px;
+    order: -2;
+}
+
+.iframe-footer {
+    width: 334px;
+    height: 180px;
+
+
+}
+
+.contact-paragraph {
+    display: flex;
+    color: #FFFFFF;
+
+}
+
+.lorem {
+    display: none;
+}
+
+
+
+}
