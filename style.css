@@ -348,6 +348,19 @@ header {
     display: none;
 }
 
+.footer-ending {
+     display: flex;
+     align-items: center;
+     flex-direction: column-reverse;
+}
+
+.mobile-ending {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4%;
+}
+
 
 
 }
