@@ -153,16 +153,20 @@ footer {
 
 
 .form-input {
-    border-bottom: 1px solid #FFFFFF;
     background: #0020F4;
     float: right;
-    
+    border: transparent;
+    border-bottom: 2px solid #FFFFFF;
+
 }
 
 .submit {
     background-color: #FFFFFF;
-    border-radius: 28px;
-    padding: 
+    padding-top: 2%;
+    width: 50px;
+    height: 150px;
+    margin-left: 75%;
+    
 
 }
 
@@ -182,6 +186,7 @@ footer {
 .headingcontact {
     color: #FFFFFF;
     padding: 3%;
+    margin-top: -30px;
     padding-left: 15px;
     font-weight: 300;
     font-family: 'Helvetica Neue';
@@ -209,11 +214,21 @@ footer {
 }
 
 .footer-ending img { 
-    width: 50px;
-    height: 50px;
-
+    display: flex;
 
 }
+.heart {
+    font-weight: 30px;
+    height: 30px;
+}
+
+.web {
+    width: 100px;
+    padding-top: -10px;
+    padding-left: 5%;
+}
+
+
 
 
 .madewlove {
@@ -227,4 +242,8 @@ footer {
 .right-part {
     display: flex;
     justify-content: space-between;
+}
+
+form div {
+    padding-top: 5%;
 }
